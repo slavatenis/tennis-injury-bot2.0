@@ -17,9 +17,9 @@ from telegram import Bot
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # ─── CONFIGURACIÓN — CAMBIA ESTOS DOS VALORES ────────────────────────────────
-TELEGRAM_TOKEN = "PON_AQUI_TU_TOKEN"       # token de BotFather
-CHAT_ID        = "PON_AQUI_TU_CHAT_ID"     # tu número de ID
-CHECK_INTERVAL = 45                         # revisar cada 45 minutos
+TELEGRAM_TOKEN = "8883681354:AAEssfeuVrW5hPOpTKrMWW4HTwJJoVXnY_A"       # token de BotFather
+CHAT_ID        = "7895672167"     # tu número de ID
+CHECK_INTERVAL = 30                         # revisar cada 45 minutos
 DB_PATH        = "lesiones.db"
 FECHA_INICIO   = datetime(2026, 5, 28, tzinfo=timezone.utc)
 
